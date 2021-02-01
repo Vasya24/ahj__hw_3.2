@@ -1,0 +1,35 @@
+body {
+    background-color: #c7c7c7;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    border: 5px solid black;
+    width: 20%;
+
+}
+
+.task {
+    border: 1px solid black;
+    width: 30%;
+    text-align: start;
+    background-color: red;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.pinnedTask {
+    background-color: green;
+    border: 1px solid black;
+    width: 30%;
+    text-align: start;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
